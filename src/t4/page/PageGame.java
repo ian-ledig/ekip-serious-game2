@@ -17,6 +17,7 @@ import t4.util.*;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.util.Random;
 
 public class PageGame extends Page{
 
@@ -238,11 +239,13 @@ public class PageGame extends Page{
                 happinessValue += aciExtra.getHappiness();
                 moneyValue += aciExtra.getMoney();
 
-                healthValue = barHealth.getValue() + healthValue;
+                Penalty penalty = Penalty.values()[new Random().nextInt(Penalty.values().length)];
+
+                healthValue = barHealth.getValue() + healthValue + penalty.getInfo().getHealth();
                 if(healthValue > 100)
                     healthValue = 100;
 
-                happinessValue = barHappiness.getValue() + happinessValue;
+                happinessValue = barHappiness.getValue() + happinessValue + penalty.getInfo().getHappiness();
                 if(happinessValue > 100)
                     happinessValue = 100;
 
