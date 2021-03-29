@@ -246,7 +246,7 @@ public class PageGame extends Page{
                 if(happinessValue > 100)
                     happinessValue = 100;
 
-                moneyValue = barMoney.getValue() + moneyValue + ;
+                moneyValue = barMoney.getValue() + moneyValue + salary;
                 if(moneyValue > 100)
                     moneyValue = 100;
 
