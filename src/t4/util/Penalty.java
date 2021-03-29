@@ -10,15 +10,15 @@ public enum Penalty {
     ),
     PENALTY2(new ActivityInfo(
             "Un mois de plus terminé. Il faut désormais continuer.",
-            0,
-            -2,
-            -6
+            -3,
+            -7,
+            0
         )
     ),
     PENALTY3(new ActivityInfo(
             "Un mois enfin fini. Il va falloir être fort pour la suite.",
-            -3,
-            -7,
+            -4,
+            -8,
             0
         )
     );
