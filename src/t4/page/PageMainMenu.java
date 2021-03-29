@@ -11,6 +11,7 @@ import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import t4.Main;
+import t4.util.ActivityInfo;
 
 public class PageMainMenu extends Page {
 
@@ -83,7 +84,8 @@ public class PageMainMenu extends Page {
                 default -> salary = 5;
             }
             if(txfMonth != null && monthNumber > 0)
-                Main.setShowedPage(new PageGame(monthNumber, salary));
+                Main.setShowedPage(new PageResult(new ActivityInfo("", 50, 60, 70)));
+                //Main.setShowedPage(new PageGame(monthNumber, salary));
         });
         vbxMenu.getChildren().add(btnPlay);
 

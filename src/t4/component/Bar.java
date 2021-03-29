@@ -20,7 +20,7 @@ public class Bar extends Group {
     private final Rectangle fill = new Rectangle(0, 0, 40, 228);
     private final Text txtValue = new Text();
 
-    public Bar(int x, int y, Color color, int baseValue){
+    public Bar(int x, int y, Color color, Color textColor, int baseValue){
         setTranslateX(x);
         setTranslateY(y);
         this.color = color;
@@ -28,7 +28,7 @@ public class Bar extends Group {
         txtValue.setY(245);
         txtValue.setX(7);
         txtValue.setFont(Font.font("Arial", FontWeight.BOLD, 14));
-        txtValue.setFill(Color.WHITE);
+        txtValue.setFill(textColor);
         setValue(baseValue);
 
         draw();

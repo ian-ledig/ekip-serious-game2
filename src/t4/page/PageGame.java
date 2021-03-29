@@ -50,9 +50,9 @@ public class PageGame extends Page{
             e.printStackTrace();
         }
 
-        Bar barHealth = new Bar(700, 30, Color.RED, 10);
-        Bar barHappiness = new Bar(760, 30, Color.YELLOW, 10);
-        Bar barMoney = new Bar(820, 30, Color.GREEN, 10);
+        Bar barHealth = new Bar(700, 30, Color.RED, Color.WHITE, 10);
+        Bar barHappiness = new Bar(760, 30, Color.YELLOW, Color.WHITE, 10);
+        Bar barMoney = new Bar(820, 30, Color.GREEN, Color.WHITE, 10);
 
         Text txtInfoGame = new Text();
         txtInfoGame.setFont(Font.font("Arial", FontWeight.BOLD, 20));
@@ -263,8 +263,10 @@ public class PageGame extends Page{
                 barHappiness.setValue(happinessValue);
                 barMoney.setValue(moneyValue);
 
+                ActivityInfo activityInfo = new ActivityInfo("", healthValue, happinessValue, moneyValue);
+
                 if(month == monthNumber)
-                    Main.setShowedPage(new PageMainMenu());
+                    Main.setShowedPage(new PageResult(activityInfo));
                 else{
                     month++;
 
