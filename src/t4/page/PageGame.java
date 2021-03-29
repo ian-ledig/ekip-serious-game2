@@ -54,7 +54,13 @@ public class PageGame extends Page{
         Bar barHappiness = new Bar(760, 30, Color.YELLOW, 10);
         Bar barMoney = new Bar(820, 30, Color.GREEN, 10);
 
-        grpGame.getChildren().addAll(imgBackground, barHealth, barHappiness, barMoney);
+        Text txtInfoGame = new Text();
+        txtInfoGame.setFont(Font.font("Arial", FontWeight.BOLD, 20));
+        txtInfoGame.setFill(Color.WHITE);
+        txtInfoGame.setX(10);
+        txtInfoGame.setY(25);
+
+        grpGame.getChildren().addAll(imgBackground, barHealth, barHappiness, barMoney, txtInfoGame);
 
         pane.setRight(grpGame);
 
@@ -269,6 +275,8 @@ public class PageGame extends Page{
                     txtHealthSelect.setText("-");
                     txtHomeSelect.setText("-");
                     txtExtraSelect.setText("-");
+
+                    txtInfoGame.setText(penalty.getInfo().getName());
                 }
 
                 updateTitle();
