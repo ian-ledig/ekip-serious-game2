@@ -44,9 +44,9 @@ public class PageResult extends Page{
 
         vbxResult.getChildren().add(txtTitle);
 
-        Bar barHealth = new Bar(0, 0, Color.RED, Color.BLACK, health);
-        Bar barHappiness = new Bar(0, 0, Color.YELLOW, Color.BLACK, happiness);
-        Bar barMoney = new Bar(0, 0, Color.GREEN, Color.BLACK, money);
+        Bar barHealth = new Bar("Santé", 0, 0, Color.RED, Color.BLACK, health);
+        Bar barHappiness = new Bar("Bonheur", 0, 0, Color.YELLOW, Color.BLACK, happiness);
+        Bar barMoney = new Bar("Budget", 0, 0, Color.GREEN, Color.BLACK, money);
 
         // Drawing info messages
 

@@ -16,13 +16,16 @@ public class Bar extends Group {
 
     public static final String TEXTURE_BAR = "src/assets/textures/bar.png";
 
+    private final String name;
     private final Color color;
     private final Rectangle fill = new Rectangle(0, 0, 40, 228);
     private final Text txtValue = new Text();
 
-    public Bar(int x, int y, Color color, Color textColor, int baseValue){
+    public Bar(String name, int x, int y, Color color, Color textColor, int baseValue){
         setTranslateX(x);
         setTranslateY(y);
+
+        this.name = name;
         this.color = color;
 
         txtValue.setY(245);
@@ -36,7 +39,12 @@ public class Bar extends Group {
 
     public void draw(){
         fill.setFill(color);
-        getChildren().addAll(fill, txtValue);
+
+        Text txtName = new Text(this.name);
+        txtName.setFont(Font.font("Arial", FontWeight.BOLD, 14));
+        txtName.setFill(Color.WHITE);
+
+        getChildren().addAll(fill, txtName, txtValue);
 
         try {
             ImageView imgBar = new ImageView(new Image(new FileInputStream(TEXTURE_BAR)));

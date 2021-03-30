@@ -79,9 +79,9 @@ public class PageMainMenu extends Page {
             int monthNumber = Integer.parseInt(txfMonth.getText());
             int salary;
             switch (txtSalarySelect.getText()){
-                case "Petit" -> salary = 4;
-                case "Gros" -> salary = 6;
-                default -> salary = 5;
+                case "Petit" : salary = 4;
+                case "Gros" : salary = 6;
+                default : salary = 5;
             }
             if(txfMonth != null && monthNumber > 0)
                 Main.setShowedPage(new PageGame(monthNumber, salary));
