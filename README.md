@@ -8,7 +8,7 @@
 
 [Windows](https://drive.google.com/file/d/1LeNpKywLN5MWG-Q94bE-WSV41HCmdD6n/view?usp=sharing)
 
-### Autheurs
+### Auteurs
 
 - [MIGLIONICO-JACQUOT Yoann](https://git.unistra.fr/miglionico)
 - [OZBEL Enescan](https://git.unistra.fr/eozbel)
