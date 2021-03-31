@@ -8,9 +8,14 @@
 
 [Cahier des charges](https://docs.google.com/document/d/1aSJizYEQ_bQtehNfUSkLTm0GBGgYQvxmuCkMMacNFxM/edit?usp=sharing)
 
-### Démo
+### Intallation
 
-[Windows](https://drive.google.com/file/d/1LeNpKywLN5MWG-Q94bE-WSV41HCmdD6n/view?usp=sharing)
+Suivez les étapes suivantes pour installer ce jeu :
+
+- Etape 1 : Téléchargez l'archive (lien [ici](https://drive.google.com/file/d/1LeNpKywLN5MWG-Q94bE-WSV41HCmdD6n/view?usp=sharing)
+).
+- Etape 2 : La décompressez, garder bien tous les fichiers qui en sortent dans le même dossier de votre machine.
+- Etape 3 : Lancer le run.bat si vous êtes sur windows sinon lancer le run.sh.
 
 ![Capture](https://cdn.discordapp.com/attachments/774264633246351370/826725346308522014/unknown.png)
 
