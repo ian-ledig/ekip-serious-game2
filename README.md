@@ -1,7 +1,7 @@
 # Ekip
 
 **Contexte :** Basé sur les travaux d'une thèse d'une tutrice pédagogique, réaliser un prototype de jeu sérieux permettant d'apprendre ce que le tuteur a expliqué. <br>
-**Thème :** Problatiques rencontrées lors de projets de rénovation urbaine dans les quartiers sociaux. <br>
+**Thème :** Problématiques rencontrées lors de projets de rénovation urbaine dans les quartiers sociaux. <br>
 **Durée de développement :** 2 jours. <br>
 
 ### Cahier des charges
