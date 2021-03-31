@@ -4,9 +4,9 @@
 **Thème :** Problatiques rencontrées lors de projets de rénovation urbaine dans les quartiers sociaux. <br>
 **Durée de développement :** 2 jours. <br>
 
-### Document de travail T4
+### Cahier des charges
 
-[Document](https://docs.google.com/document/d/1aSJizYEQ_bQtehNfUSkLTm0GBGgYQvxmuCkMMacNFxM/edit?usp=sharing)
+[Cahier des charges](https://docs.google.com/document/d/1aSJizYEQ_bQtehNfUSkLTm0GBGgYQvxmuCkMMacNFxM/edit?usp=sharing)
 
 ### Démo
 
