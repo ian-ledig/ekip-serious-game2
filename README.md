@@ -24,3 +24,7 @@ Suivez les étapes suivantes pour installer ce jeu :
 - [OZBEL Enescan](https://git.unistra.fr/eozbel)
 - [BRUMBTER Robin](https://git.unistra.fr/rbrumbter)
 - [LEDIG Ian](https://git.unistra.fr/iledig)
+
+### MCD
+
+![Capture](https://cdn.discordapp.com/attachments/826100355715694643/826745856019398666/uml.png)
